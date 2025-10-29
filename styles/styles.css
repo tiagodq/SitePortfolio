@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Poiret+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poiret+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sriracha&display=swap');
+
+:root {
+    --cor_fundo:#080314;
+    --cor_secundaria: #00ffff;
+    --cor_fonte:#ffffff;
+    --cor_hover: #190725;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}  
+
+body {
+    display: flex;
+    flex-direction: column; 
+    background-color: var(--cor_fundo);
+    padding: 0%;
+    padding-bottom: 100px;
+    margin: 0%;
+
+}
+
+.cabecalho{
+    padding: 5% 0% 0% 30%;
+    display: flex;
+    justify-content: left;    
+}
+
+.cabecalho:{
+    padding: 5% 0% 0% 30%;
+    display: flex;
+    justify-content: left;    
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 70px;    
+}
+
+.cabecalho__menu__links{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: var(--cor_secundaria);
+    text-decoration: none;
+}
+
+
+
+.geral {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-top: 3%;
+}
+
+.logo {
+    height: 110px;
+}
+
+.introducao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0 30%;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.apresentacao-box{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.introducao .apresentacao-box .apresentacao-box__conteudo .apresentacao-text {
+    display: flex;
+    align-self: baseline;
+    font-size: 1.4rem;
+    text-align: left;
+    font-style: normal;
+    
+
+}
+
+.introducao__texto{
+    width: auto;
+}
+
+.introducao__texto__titulo {
+    font-size: 2rem;
+    color: var(--cor_fonte);
+    font-family: 'Krona One', sans-serif;
+    
+
+}
+
+.introducao__texto__titulo__strong {
+    color:var(--cor_secundaria);
+    font-style: italic;
+    
+}
+
+.introducao .profile {
+    display: flex;
+    align-items: center;
+    width: 170px;
+    /* Ajuste a largura conforme necessário */
+    border-radius: 65px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.apresentacao-box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    color:var(--cor_fonte);
+}
+
+.apresentacao-box .apresentacao-box__subtitle{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.apresentacao-box .apresentacao-box__conteudo{
+    flex-direction: column;
+}
+
+.apresentacao-box .apresentacao-box__conteudo .apresentacao-text{
+    color: var(--cor_fonte);
+    font-weight: 200;
+}
+
+
+.apresentacao-box__conteudo {
+    list-style-type: none;
+    padding: 0;
+    /* Remove o padding padrão */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 150px;
+    margin-top: 20px;
+    gap: 9px;
+    
+}
+
+
+.button__links__ancora{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+    text-decoration: none;
+    color:var(--cor_fonte);
+    font-style: italic;
+    font-weight: 300;
+    padding: 7px;
+    
+    border-width: 0.5px;
+    border-color: var(--cor_secundaria);
+    border-radius: 2px;
+    
+    border-style: solid;
+}
+
+.button__links__ancora:hover{
+    background-color: var(--cor_hover);
+}
+
+.email_linkedin{
+    display: flex;
+    padding-top: 10px;
+    font-size: 10px;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.rodape {
+    background-color: var(--cor_secundaria);
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+    position: fixed;
+    bottom: 10px;
+    font-family: 'Krona One', sans-serif;
+}
+
+/* ------------------------- */
+
+.introducao__about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30%;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    color: var(--cor_fonte);
+    font-family: 'Krona One', sans-serif;
+}
+
+.introducao__about .espaco_about{
+    padding-top: 20px;
+}
+
+.introducao__about .espaco_about .apresentacao-text__about{
+    display: flex;
+    align-self: baseline;
+    text-align: left;
+    list-style-type: none;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.4em;
+    
+}
+
+/* ---------------------------- */
+
+.geral__curriculo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30%;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    color:var(--cor_fonte);
+}
+
+.titulos__curriculo{
+    font-family: 'Krona One', sans-serif;
+}
+ .apresentacao-text__curriculo{
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    
+}
+
+.titulos__curriculo__extras{
+font-size: 0.75em;
+}
+
+.experiencias-div{
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    font-family: 'Krona One', sans-serif;  
+}
+
+.lista-experiencias{
+    font-family: "Montserrat", sans-serif;
+    padding-left: 35px;
+}
+
+.lista-estudos{
+    font-family: "Montserrat", sans-serif;
+    padding-left: 35px;
+}
+
+.lista-estudos__itens{
+    margin-bottom: 5px;
+}
+
+.links-certificados{
+  font-style: none;  
+  text-decoration: none;
+  color: var(--cor_secundaria);
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 800px){
+    .cabecalho{
+    padding: 5% 0% 0% 15%;
+    display: flex;
+    justify-content: left;    
+}
+    .introducao{
+       padding: 0 15%; 
+    }
+
+.introducao__texto__titulo {
+    font-size: 1.5rem;
+  
+
+}
+
+.introducao .apresentacao-box .apresentacao-box__conteudo .apresentacao-text {
+    font-size: 1.1rem;
+}
+
+.introducao__about .espaco_about .apresentacao-text__about{
+  font-size: 1rem;
+}
+}
