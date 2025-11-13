@@ -337,5 +337,16 @@ li:last-child {
     font-size: 0.7rem;
     font-family: 'Krona One', sans-serif;
 }
+
+    .cabecalho{
+    padding: 5% 0% 0% 20%;
+    display: flex;
+    justify-content: left;    
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 40px;    
+}  
 }
 
