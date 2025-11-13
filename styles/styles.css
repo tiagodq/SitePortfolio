@@ -346,7 +346,8 @@ li:last-child {
 
 .cabecalho__menu{
     display: flex;
-    gap: 40px;    
+    gap: 20px;
+    font-size: 0.8rem;  
 }  
 }
 
