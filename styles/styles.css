@@ -225,6 +225,14 @@ body {
     margin-top: 5px;
     color: var(--cor_fonte);
     font-family: 'Krona One', sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0 30%;
+    flex-wrap: wrap;
+    margin-top: 5px;
 }
 
 .introducao__about .espaco_about{
@@ -255,6 +263,14 @@ body {
     flex-wrap: wrap;
     margin-top: 5px;
     color:var(--cor_fonte);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0 30%;
+    flex-wrap: wrap;
+    margin-top: 5px;
 }
 
 .titulos__curriculo{
@@ -348,6 +364,13 @@ li:last-child {
     display: flex;
     gap: 20px;
     font-size: 0.8rem;  
-}  
+} 
+    .introducao__about{
+        padding: 0 15%; 
+    }
+
+    .geral__curriculo{
+        padding: 0 15%; 
+    }
 }
 
